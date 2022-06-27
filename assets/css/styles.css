@@ -1,0 +1,154 @@
+body {
+  background: #e3f6f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background-color: #fffffe;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgb(0, 0, 0, 1);
+}
+.container .left-side {
+  position: relative;
+  background-color: #232946;
+  padding: 15px;
+}
+.profileText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+.contactInfo {
+  padding-top: 5px;
+}
+/* contact info */
+.title {
+  color: lightcyan;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.contactInfo,
+ul {
+  position: relative;
+}
+.contactInfo,
+ul,
+li {
+  list-style: none;
+  position: relative;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #e3f6f5;
+}
+.text {
+  color: lightblue;
+  font-weight: 300px;
+}
+.profileText .imgBx {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profileText .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+.profileText,
+h2 {
+  color: white;
+  font-size: 550px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+.profileText,
+h2,
+span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.EducationInfo {
+  margin-bottom: 15px;
+}
+h5 {
+  color: wheat;
+  font-weight: 500;
+}
+.degreh4 {
+  color: white;
+  font-weight: 600;
+  font-style: italic;
+}
+.unih4 {
+  color: whitesmoke;
+  font-weight: 300;
+}
+
+.percent {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background-color: black;
+  display: block;
+  margin-top: 5px;
+}
+.langper {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  background-color: aqua;
+}
+
+/*RIGHT CONTAINER*/
+.container .right-side {
+  position: relative;
+  background-color: #fffffe;
+  padding: 100px;
+}
+
+.about {
+  margin-bottom: 50px;
+}
+.about:last-child {
+  margin-bottom: 0%;
+}
+.title2 {
+  color: #003147;
+  text-transform: uppercase;
+  initial-letter-align: 1px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+p {
+  color: #333;
+}
